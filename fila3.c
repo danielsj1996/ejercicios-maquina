@@ -84,7 +84,7 @@ void Defila(Fila *fila)
     fila->frente = fila->frente->siguiente;
     if (fila->frente == NULL)
     {
-        fila->final == NULL; // Si la fila queda vacia, actualiza el puntero final de la fila
+        fila->final = NULL; // Si la fila queda vacia, actualiza el puntero final de la fila
     }
     free(nodoAEliminar);
     fila->total--;
